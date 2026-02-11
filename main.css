@@ -1,9 +1,13 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
-/* DASHBOARD */
+/* DASHBOARD PANEL */
+.dash-heading {
+    display: inline-block;
+}
 
 .side-panel {
     height: 100vh;
@@ -19,5 +23,80 @@
     font-size: 20px;
 }
 
+.settings {
+
+}
+
 /* ICONS */
+#dash-icon {
+    height:50px;
+    width: 50px;
+}
+
+.side-panel-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.project-icon {
+    height: 25px;
+    width: 25px;
+}
+
+/* AVATARS */
+.main-avatar {
+    height:80px;
+    width: 80px;
+}
+
+.secondary-avatar {
+    height: 50px;
+    width: 50px;
+}
+
+/* TOP NAVIGATION */
+.top-nav {
+
+}
+
+.search-bar {
+
+}
+
+.greeting {
+
+}
+
+.notification {
+
+}
+
+.button-nav {
+
+}
+
+.button-nav button {
+    background-color: lightskyblue;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+}
+
+/* PROJECT SECTION */
+.projects {
+
+}
+
+.project-wrapper {
+
+}
+
+.singular-project {
+
+}
+
+.project-heading {
+    
+}
 
