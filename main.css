@@ -23,6 +23,12 @@
     font-size: 20px;
 }
 
+.single-side-nav {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px;
+}
+
 .settings {
 
 }
@@ -97,6 +103,6 @@
 }
 
 .project-heading {
-    
+
 }
 
