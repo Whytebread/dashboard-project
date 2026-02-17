@@ -41,6 +41,7 @@ main {
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 12px;
+    padding: 10px;
 }
 
 .settings {
@@ -51,6 +52,7 @@ main {
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 12px;
+    padding: 10px;
 }
 
 .dash-heading {
@@ -96,8 +98,12 @@ main {
 
 }
 
+header {
+    height: 300px;
+}
+
 .search-bar {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     align-items: center;
     gap: 12px;
     display: grid;
@@ -110,12 +116,22 @@ main {
     padding: 5px;
 }
 
-.greeting {}
+.greeting {
+    display: flex;
+    gap: 20px;
+}
 
-.notification {}
+.notification {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
 
 .button-nav ul {
     list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
 .button-nav button {
