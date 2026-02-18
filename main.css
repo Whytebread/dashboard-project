@@ -209,6 +209,10 @@ main {
 }
 
 /* ANNOUNCEMENTS */
+.announcements {
+    padding-top: 10px;
+}
+
 .announcement-text {
     background-color: white;
     height: 550px;
