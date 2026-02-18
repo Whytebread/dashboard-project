@@ -6,7 +6,9 @@
 
 .page-wrapper {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 20vw 1fr;
+    grid-template-rows: auto 1fr;
+    min-height: 100vh;
 }
 
 header,
@@ -14,15 +16,23 @@ main {
     grid-column: 2;
 }
 
+header {
+    grid-row: 1;
+}
+
+main {
+    grid-row: 2;
+}
+
 /* DASHBOARD PANEL */
 .side-panel {
     height: 100vh;
-    width: 20vw;
     display: grid;
     grid-template-rows: auto 1fr auto;
     background-color: lightskyblue;
     color: white;
     grid-column: 1;
+    grid-row: 1/3;
 
 }
 
@@ -95,11 +105,8 @@ main {
 .top-nav {
     display: grid;
     grid-template-columns: 3fr 1fr;
-
-}
-
-header {
-    height: 300px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .search-bar {
@@ -112,13 +119,15 @@ header {
 
 .search {
     width: 500px;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 5px;
+    background-color: lightgray;
 }
 
 .greeting {
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 .notification {
@@ -142,11 +151,59 @@ header {
     width: 100px;
 }
 
+.nav-right {
+    padding-right: 50px;
+}
+
 /* PROJECT SECTION */
-.projects {}
+.projects {
+    background-color: lightgrey;
+    padding-top: 20px;
+    padding-left: 20px;
+}
 
-.project-wrapper {}
+.project-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
 
-.singular-project {}
+.singular-project {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 20px;
+    border-left: solid lightsalmon 8px;
+}
+
+.project-icon-row {
+    padding: 30px;
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
 
 .project-heading {}
+
+.outer-column {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+/* ANNOUNCEMENTS */
+.announcement-text {
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+/* TRENDING */
+.singular-trend {
+    background-color: white;
+    border-radius: 15px;
+    height: 400px;
+    width: 300px;
+}
