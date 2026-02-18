@@ -26,9 +26,8 @@ main {
 
 /* DASHBOARD PANEL */
 .side-panel {
-    height: 100vh;
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto auto auto;
     background-color: lightskyblue;
     color: white;
     grid-column: 1;
@@ -38,6 +37,7 @@ main {
 
 .side-nav {
     align-self: start;
+    
 }
 
 .side-panel ul {
@@ -45,6 +45,7 @@ main {
     font-size: 20px;
     margin: 0;
     padding: 0;
+    font-weight: bold;
 }
 
 .single-side-nav {
@@ -71,7 +72,6 @@ main {
     gap: 12px;
     align-items: center;
     height: 50px;
-    margin-bottom: 200px;
 }
 
 /* ICONS */
@@ -107,6 +107,7 @@ main {
     grid-template-columns: 3fr 1fr;
     padding-top: 20px;
     padding-left: 20px;
+    padding-bottom: 20px;
 }
 
 .search-bar {
@@ -158,8 +159,8 @@ main {
 /* PROJECT SECTION */
 .projects {
     background-color: lightgrey;
-    padding-top: 20px;
-    padding-left: 20px;
+    padding-top: 40px;
+    padding-left: 30px;
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
@@ -189,7 +190,11 @@ main {
     justify-content: right;
 }
 
-.project-heading {}
+.project-heading {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
 
 .project-wrapper h3 {
   grid-column: 1 / -1;         
@@ -211,6 +216,8 @@ main {
     border-radius: 15px;
     border-bottom: 5px solid black;
     padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 25px;
 
 }
 
@@ -232,6 +239,7 @@ main {
     width: 300px;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .single-trend {
