@@ -200,14 +200,26 @@ main {
 /* ANNOUNCEMENTS */
 .announcement-text {
     background-color: white;
-    height: 400px;
+    height: 550px;
     width: 300px;
     border-radius: 15px;
     border-bottom: 5px solid black;
+    padding: 10px;
+
+}
+
+.announcement-heading {
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.single-announcement {
+    padding: 15px;
 }
 
 /* TRENDING */
-.singular-trend {
+.trending-section {
     background-color: white;
     border-radius: 15px;
     height: 400px;
