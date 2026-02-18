@@ -161,22 +161,24 @@ main {
     padding-top: 20px;
     padding-left: 20px;
     display: grid;
-    grid-template-columns: auto auto 1fr;
+    grid-template-columns: 2fr 1fr;
 }
 
 .project-wrapper {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    align-content: start;
 }
 
 .singular-project {
     width: 400px;
-    height: 200px;
+    min-height: 200px;
     background-color: white;
     border-radius: 15px;
     padding-top: 20px;
     border-left: solid lightsalmon 8px;
+    padding: 15px;
 }
 
 .project-icon-row {
@@ -184,14 +186,15 @@ main {
     display: flex;
     align-items: flex-end;
     gap: 10px;
+    justify-content: right;
 }
 
 .project-heading {}
 
 .outer-column {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 /* ANNOUNCEMENTS */
@@ -200,6 +203,7 @@ main {
     height: 400px;
     width: 300px;
     border-radius: 15px;
+    border-bottom: 5px solid black;
 }
 
 /* TRENDING */
