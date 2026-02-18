@@ -160,6 +160,8 @@ main {
     background-color: lightgrey;
     padding-top: 20px;
     padding-left: 20px;
+    display: grid;
+    grid-template-columns: auto auto 1fr;
 }
 
 .project-wrapper {
