@@ -222,6 +222,15 @@ main {
 .trending-section {
     background-color: white;
     border-radius: 15px;
-    height: 400px;
+    height: 300px;
     width: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-trend {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
 }
